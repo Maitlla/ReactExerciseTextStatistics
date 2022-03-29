@@ -1,0 +1,38 @@
+body {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  align-content: center;
+  height: 99vh;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+main {
+  display: grid;
+  background-color: whitesmoke;
+  height: 45vh;
+  padding-bottom: 20px;
+}
+
+div {
+  grid-template-rows: 2fr 4fr 1fr 1fr;
+  height: 90vh;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+textarea {
+  font-size: 1.1em;
+  height: 30vh;
+  width: 45vw;
+  margin-bottom: 10px;
+}
+  
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: bold;
+
+}
