@@ -33,6 +33,14 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-weight: bold;
-
+  font-size: 0.7em;
 }
+
+.LetrasPalabras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
