@@ -33,5 +33,3 @@ function App() { // Componente APP()
 
 export default App;
 
-// <p><span>Letras</span><span>Palabras</span></p>
-// <p><span>x</span><span>y</span></p>
